@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name:DBT_TUTO
+    tables:
+      - name:students
+         description: ' A sample database provided by snowflake'
+         database: DBT_TUTO
+         schema: DBT1
+
+    tables:
+      - name: subjects
+        description-'Details about the subjects of the students'
+        database: DBT_TUTO
+        schema: DBT1
+      
